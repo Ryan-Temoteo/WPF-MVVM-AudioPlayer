@@ -3,7 +3,9 @@
                     xmlns:local="clr-namespace:SpotiyCopy.Styles">
 
     <Style TargetType="DataGridCell" x:Key="ActiveCellStyle">
-        <Setter Property="Foreground" Value="Blue"/>
+        <Setter Property="Foreground" Value="GreenYellow"/>
     </Style>
+
+   
 
 </ResourceDictionary>

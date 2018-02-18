@@ -3,7 +3,6 @@ c:\users\pj\source\repos\SpotifyCopy\SpotiyCopy\bin\Debug\SpotiyCopy.exe
 c:\users\pj\source\repos\SpotifyCopy\SpotiyCopy\bin\Debug\SpotiyCopy.pdb
 c:\users\pj\source\repos\SpotifyCopy\SpotiyCopy\obj\Debug\MainWindow.g.cs
 c:\users\pj\source\repos\SpotifyCopy\SpotiyCopy\obj\Debug\App.g.cs
-c:\users\pj\source\repos\SpotifyCopy\SpotiyCopy\obj\Debug\GeneratedInternalTypeHelper.g.cs
 c:\users\pj\source\repos\SpotifyCopy\SpotiyCopy\obj\Debug\SpotiyCopy_MarkupCompile.cache
 c:\users\pj\source\repos\SpotifyCopy\SpotiyCopy\obj\Debug\SpotiyCopy_MarkupCompile.lref
 c:\users\pj\source\repos\SpotifyCopy\SpotiyCopy\obj\Debug\App.baml
