@@ -1,0 +1,52 @@
+﻿<Window x:Class="SpotiyCopy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SpotiyCopy"
+        xmlns:margin="clr-namespace:Margin"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" Background="#181818">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Border Padding="10">
+            <StackPanel Grid.RowSpan="3" Grid.Column="0" margin:MarginSetter.Margin="20">
+                <Button Content="Songs" Style="{DynamicResource RoundedButton}" Background ="#1DB954" Foreground="#FFFF" Margin="0,0,0,30"/>
+                <Button Content="Albums" Style="{DynamicResource RoundedButton}" Background ="#1DB954" Foreground="#FFFF" Margin="0,0,0,0"/>
+                <Button Content="Playlists" Style="{DynamicResource RoundedButton}" Background ="#1DB954" Foreground="#FFFF" Margin="0,0,0,0"/>
+                <Button Content="Stations" Style="{DynamicResource RoundedButton}" Background ="#1DB954" Foreground="#FFFF" Margin="0,0,0,0"/>
+            </StackPanel>
+        </Border>
+        <DataGrid Name="dgTest" RowBackground="#181818" Grid.Column="1" Grid.RowSpan="2"  Background="#181818" CanUserResizeColumns="True" CanUserAddRows="False" CanUserSortColumns="True" IsReadOnly="True" ItemsSource="{Binding Songs}" >
+            
+            <DataGrid.Columns>
+                <DataGridTextColumn 
+                CellStyle="{StaticResource ActiveCellStyle}"/>
+            </DataGrid.Columns>
+            <DataGrid.Style>
+                <Style TargetType="DataGrid">
+                    <Style.Resources>
+                        <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#181818"></SolidColorBrush>
+                    </Style.Resources>
+                </Style>
+            </DataGrid.Style>
+        </DataGrid>
+        <UniformGrid HorizontalAlignment="Center" Rows="1" Columns="4" Grid.Row="3" Grid.Column="1">
+            <!--          <StackPanel Orientation="Horizontal" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center"> -->
+            <Button Style="{DynamicResource RoundedButton}" Background ="#1DB954" Foreground="#FFFF">Rewind</Button>
+            <Button Style="{DynamicResource RoundedButton}" Background ="#1DB954" Foreground="#FFFF">Play</Button>
+            <Button Style="{DynamicResource RoundedButton}" Background ="#1DB954" Foreground="#FFFF">Stop</Button>
+            <Button Style="{DynamicResource RoundedButton}" Background ="#1DB954" Foreground="#FFFF">Fast Forward</Button>
+            <!--  </StackPanel> -->
+        </UniformGrid>
+    </Grid>
+</Window>
