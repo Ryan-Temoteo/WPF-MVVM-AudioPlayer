@@ -22,7 +22,7 @@ namespace SpotiyCopy.ViewModels
 
         public AlbumViewModel()
         {
-         
+             
         }
 
     }
