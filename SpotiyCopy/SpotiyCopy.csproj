@@ -54,7 +54,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Models\Album.cs" />
     <Compile Include="Models\Song.cs" />
+    <Compile Include="ViewModels\AlbumViewModel.cs" />
     <Compile Include="ViewModels\SongViewModel.cs" />
     <Compile Include="Views\AlbumView.xaml.cs">
       <DependentUpon>AlbumView.xaml</DependentUpon>

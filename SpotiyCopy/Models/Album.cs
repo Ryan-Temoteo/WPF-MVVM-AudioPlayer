@@ -5,12 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SpotiyCopy
+namespace SpotiyCopy.Models
 {
-    public class Song
+    public class Album
     {
         [DisplayName("Songs")]
-        public string songName { get; set; }
+        public List<Song> songs { get; set; }
 
         [DisplayName("Album")]
         public string albumName { get; set; }
@@ -20,5 +20,7 @@ namespace SpotiyCopy
 
         [DisplayName("Genre")]
         public string Genre { get; set; }
-    };
+
+
+    }
 }

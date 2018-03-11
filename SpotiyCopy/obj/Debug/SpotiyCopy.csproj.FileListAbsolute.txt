@@ -14,7 +14,6 @@ c:\users\pj\source\repos\SpotifyCopy\SpotiyCopy\obj\Debug\SpotiyCopy.csproj.Gene
 c:\users\pj\source\repos\SpotifyCopy\SpotiyCopy\obj\Debug\SpotiyCopy.csproj.CoreCompileInputs.cache
 c:\users\pj\source\repos\SpotifyCopy\SpotiyCopy\obj\Debug\SpotiyCopy.exe
 c:\users\pj\source\repos\SpotifyCopy\SpotiyCopy\obj\Debug\SpotiyCopy.pdb
-c:\users\pj\source\repos\SpotifyCopy\SpotiyCopy\obj\Debug\SpotiyCopy.csprojResolveAssemblyReference.cache
 C:\Users\PJ\source\repos\SpotifyCopy\SpotiyCopy\obj\Debug\Views\AlbumView.g.cs
 C:\Users\PJ\source\repos\SpotifyCopy\SpotiyCopy\obj\Debug\Views\AlbumView.baml
 C:\Users\PJ\source\repos\SpotifyCopy\SpotiyCopy\obj\Debug\Styles\DataGridStyles.baml
