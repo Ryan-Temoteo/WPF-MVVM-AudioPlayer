@@ -17,3 +17,11 @@ c:\users\pj\source\repos\SpotifyCopy\SpotiyCopy\obj\Debug\SpotiyCopy.pdb
 C:\Users\PJ\source\repos\SpotifyCopy\SpotiyCopy\obj\Debug\Views\AlbumView.g.cs
 C:\Users\PJ\source\repos\SpotifyCopy\SpotiyCopy\obj\Debug\Views\AlbumView.baml
 C:\Users\PJ\source\repos\SpotifyCopy\SpotiyCopy\obj\Debug\Styles\DataGridStyles.baml
+C:\Users\ryant\Desktop\Teste\WPF-MVVM-AudioPlayer\SpotiyCopy\obj\Debug\SpotiyCopy.csproj.AssemblyReference.cache
+C:\Users\ryant\Desktop\Teste\WPF-MVVM-AudioPlayer\SpotiyCopy\obj\Debug\MainWindow.g.cs
+C:\Users\ryant\Desktop\Teste\WPF-MVVM-AudioPlayer\SpotiyCopy\obj\Debug\Views\AlbumView.g.cs
+C:\Users\ryant\Desktop\Teste\WPF-MVVM-AudioPlayer\SpotiyCopy\obj\Debug\App.g.cs
+C:\Users\ryant\Desktop\Teste\WPF-MVVM-AudioPlayer\SpotiyCopy\obj\Debug\SpotiyCopy_MarkupCompile.cache
+C:\Users\ryant\Desktop\Teste\WPF-MVVM-AudioPlayer\SpotiyCopy\obj\Debug\SpotiyCopy_MarkupCompile.lref
+C:\Users\ryant\Desktop\Teste\WPF-MVVM-AudioPlayer\SpotiyCopy\obj\Debug\SpotiyCopy.exe
+C:\Users\ryant\Desktop\Teste\WPF-MVVM-AudioPlayer\SpotiyCopy\obj\Debug\SpotiyCopy.pdb
